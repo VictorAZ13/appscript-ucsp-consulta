@@ -6,8 +6,8 @@ function doGet(e) {
 
 // ------------------ UTIL ------------------
 function _getSheet_() {
-  var ss = SpreadsheetApp.openById("1q3MIHTq4pOrdXgpNjU8mNDJl8WCIDrV_aD87bIJ5G6M");
-  return ss.getSheetByName("Sheet1");
+  var ss = SpreadsheetApp.openById("ID_SHEET");
+  return ss.getSheetByName("SHEET NAME");
 }
 
 function _idx(headers, name) {
